@@ -23,8 +23,9 @@ var DashboardComponent = (function () {
     };
     DashboardComponent = __decorate([
         core_1.Component({
+            moduleId: module.id,
             selector: 'my-dashboard',
-            templateUrl: 'app/dashboard.component.html',
+            templateUrl: 'dashboard.component.html',
             providers: [
                 hero_service_1.HeroService
             ]
